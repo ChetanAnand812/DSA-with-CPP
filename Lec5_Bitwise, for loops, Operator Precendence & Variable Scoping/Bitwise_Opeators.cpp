@@ -8,4 +8,20 @@ int main(){
     cout<<" a|b "<<(a|b)<<endl;
     cout<<" ~a "<<(~a)<<endl;
     cout<<" a^b "<<(a^b)<<endl;
+
+    cout<<(17>>1)<<endl;  // lift shift
+    cout<<(17>>2)<<endl;
+    cout<<(19<<1)<<endl;  // right shift 
+    cout<<(21<<2)<<endl;
+
+// increment and decrement operators
+    int i = 7;
+    cout<<(++i)<<endl;
+    //8
+    cout<<(i++)<<endl;
+    //8, i=9
+    cout<<(i--)<<endl;
+    //9, i=8
+    cout<<(--i)<<endl;
+    //7, i=7
 }
