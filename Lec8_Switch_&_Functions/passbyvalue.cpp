@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-//  1
+/*  1
 void dummy(int n){
     n++;
     cout<<"N is "<<n<<endl;
@@ -42,14 +42,13 @@ int main(){                       // output - 15
 }
 */
 
-/*  4
+
 int update(int a){
     int ans = a*a;
     return ans;
 }
 int main(){                       // output - 196
     int a = 14;
-    a = update(a);
-    cout<<a<<endl;
+    // a = update(a);
+    cout<<update(a)<<endl;
 }
-*/
