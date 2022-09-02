@@ -9,7 +9,7 @@ int getMin(int arr[], int n){
             min = arr[i];
         }
     }
-    return min;
+    return min; 
 }
 
 int getMax(int arr[], int n){
