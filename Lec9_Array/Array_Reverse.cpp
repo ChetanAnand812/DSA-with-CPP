@@ -11,7 +11,7 @@ void reverse(int arr[], int n){
         start++;
         end--;
     }
-}
+} 
 
 void printArray(int arr[], int n){
     cout<<"Reverse of Array is"<<endl;
