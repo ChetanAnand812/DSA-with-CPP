@@ -9,6 +9,8 @@ int main(){
         cout<<i<<" ";
     }cout<<endl;
 
+    // vector<int> last(a); --> for copy eleement 
+    
     vector<int> v;
     cout<<"Capacity-> "<<v.capacity()<<endl;
 
